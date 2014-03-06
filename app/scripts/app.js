@@ -4,7 +4,8 @@ angular.module('showboardApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute',
+  'ui.bootstrap'
 ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -16,3 +17,4 @@ angular.module('showboardApp', [
         redirectTo: '/'
       });
   });
+
